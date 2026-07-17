@@ -1,13 +1,3 @@
-"""
-DAG d'orchestration du pipeline ELT Sofac :
-1. Authentification NiFi
-2. Démarrage du Process Group PG_SOFAC (8 sources)
-3. Attente du traitement
-4. Arrêt du Process Group PG_SOFAC
-5. dbt run (13 modèles : staging + intermediate + marts)
-6. dbt test (20 tests qualité)
-"""
-
 from datetime import datetime, timedelta
 import time
 import requests
@@ -19,19 +9,16 @@ from airflow.operators.bash import BashOperator
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# =========================================================
-# CONFIGURATION
-# =========================================================
 NIFI_BASE_URL    = "https://DESKTOP-QV50A8V:8443/nifi-api"
 NIFI_USERNAME    = "2161b11b-a2d9-4f44-81e2-17dcdc3ba826"
 NIFI_PASSWORD    = "McLc5VKXJ6kgQowKIZFEwlEkcXysq5yy"
-NIFI_PG_ID       = "60f65ed8-019f-1000-e68f-a71fe4a8ddba"  # ID Process Group PG_SOFAC
+NIFI_PG_ID       = "60f65ed8-019f-1000-e68f-a71fe4a8ddba" 
 
 DBT_PROJECT_DIR  = "/opt/dbt_project"
 DBT_PROFILES_DIR = "/opt/dbt_project"
 
 ALERT_EMAIL      = "machalamine61@gmail.com"
-WAIT_SECONDS     = 300  # 5 minutes pour les 8 sources
+WAIT_SECONDS     = 300  
 
 default_args = {
     "owner"            : "amine",
