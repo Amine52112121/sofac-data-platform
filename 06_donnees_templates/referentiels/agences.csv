@@ -1,0 +1,22 @@
+agence_id,nom_agence,ville,region,adresse,telephone,date_ouverture,responsable,statut
+AG001,Agence Sofac Casablanca,Casablanca,Casablanca-Settat,7 Rue Al Massira,+212539958838,2003-02-17,Omar Naciri,Active
+AG002,Agence Sofac Rabat,Rabat,Rabat-Salé-Kénitra,152 Rue Zerktouni,+212513999315,2002-02-06,Rachid Benjelloun,Active
+AG003,Agence Sofac Marrakech,Marrakech,Marrakech-Safi,144 Rue Mohammed V,+212639587039,2010-01-27,Amine Skalli,Active
+AG004,Agence Sofac Fès,Fès,Fès-Meknès,195 Rue Mohammed V,+212655667651,2006-03-26,Khalid Chraibi,Inactive
+AG005,Agence Sofac Tanger 1,Tanger,Tanger-Tétouan-Al Hoceïma,27 Rue Hassan II,+212622981052,2008-01-19,Samir Bensouda,Active
+AG006,Agence Sofac Tanger 2,Tanger,Tanger-Tétouan-Al Hoceïma,12 Rue Zerktouni,+212560806024,2001-10-07,Driss Berrada,Active
+AG007,Agence Sofac Agadir 1,Agadir,Souss-Massa,148 Rue Mohammed V,+212516150444,2014-10-31,Abdelkader Bakkali,Active
+AG008,Agence Sofac Agadir 2,Agadir,Souss-Massa,21 Rue Mohammed V,+212561019678,2006-03-27,Adil Cherkaoui,Active
+AG009,Agence Sofac Oujda,Oujda,Oriental,95 Rue Al Massira,+212599949389,2005-12-27,Youssef Bensouda,Active
+AG010,Agence Sofac Meknès,Meknès,Fès-Meknès,42 Rue Zerktouni,+212646231783,2014-05-09,Driss Benjelloun,Active
+AG011,Agence Sofac Tétouan,Tétouan,Tanger-Tétouan-Al Hoceïma,59 Rue Hassan II,+212663843426,2006-01-02,Youssef Chraibi,Active
+AG012,Agence Sofac Salé 1,Salé,Rabat-Salé-Kénitra,55 Rue Zerktouni,+212696282117,2010-04-16,Khalid Skalli,Active
+AG013,Agence Sofac Salé 2,Salé,Rabat-Salé-Kénitra,191 Rue Moulay Youssef,+212688461803,2009-08-10,Amine Kettani,Active
+AG014,Agence Sofac Kénitra,Kénitra,Rabat-Salé-Kénitra,131 Rue Zerktouni,+212516323852,2002-06-17,Khalid Cherkaoui,Active
+AG015,Agence Sofac El Jadida 1,El Jadida,Casablanca-Settat,153 Rue Hassan II,+212661220073,2013-05-13,Adil Senhaji,Active
+AG016,Agence Sofac El Jadida 2,El Jadida,Casablanca-Settat,142 Rue Hassan II,+212582070937,2016-11-03,Hamid Bakkali,Active
+AG017,Agence Sofac Béni Mellal,Béni Mellal,Béni Mellal-Khénifra,76 Rue Zerktouni,+212570897765,2000-01-27,Hamid Senhaji,Active
+AG018,Agence Sofac Nador,Nador,Oriental,161 Rue Al Massira,+212530513739,2008-05-21,Hassan Moussaoui,Inactive
+AG019,Agence Sofac Settat,Settat,Casablanca-Settat,154 Rue Al Massira,+212612614124,2002-07-05,Samir Berrada,Active
+AG020,Agence Sofac Khouribga,Khouribga,Béni Mellal-Khénifra,146 Rue Hassan II,+212575228535,2018-04-20,Youssef Bakkali,Active
+AG021,Agence Sofac Berrechid,Berrechid,Casablanca-Settat,33 Rue Zerktouni,+212545575298,2011-11-01,Soufiane Zniber,Inactive

@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: stg_clients
+    description: "Clients Sofac nettoyés"
+    columns:
+      - name: client_id
+        tests:
+          - not_null
+      - name: cin
+        tests:
+          - not_null
+      - name: revenu_mensuel
+        tests:
+          - not_null
+
+  - name: stg_contrats_credit
+    description: "Contrats de crédit nettoyés"
+    columns:
+      - name: contrat_id
+        tests:
+          - not_null
+      - name: client_id
+        tests:
+          - not_null
+      - name: montant_finance
+        tests:
+          - not_null
+
+  - name: stg_echeances
+    description: "Échéances nettoyées"
+    columns:
+      - name: echeance_id
+        tests:
+          - not_null
+      - name: contrat_id
+        tests:
+          - not_null
+
+  - name: stg_paiements
+    description: "Paiements nettoyés"
+    columns:
+      - name: paiement_id
+        tests:
+          - not_null
+
+  - name: stg_agences
+    description: "Référentiel agences"
+    columns:
+      - name: agence_id
+        tests:
+          - not_null
+
+  - name: stg_produits_financiers
+    description: "Référentiel produits financiers"
+    columns:
+      - name: produit_id
+        tests:
+          - not_null
+
+  - name: stg_scoring_credit
+    description: "Scores crédit bureau"
+    columns:
+      - name: client_id
+        tests:
+          - not_null
+
+  - name: stg_incidents_paiement
+    description: "Incidents de paiement"
+    columns:
+      - name: incident_id
+        tests:
+          - not_null

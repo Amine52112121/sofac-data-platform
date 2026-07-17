@@ -1,0 +1,34 @@
+version: 2
+
+models:
+  - name: dim_clients
+    description: "Dimension clients enrichie avec scoring et historique crédit"
+    columns:
+      - name: client_id
+        tests:
+          - unique
+          - not_null
+
+  - name: fct_portefeuille_credit
+    description: "Portefeuille crédit par contrat avec KPIs"
+    columns:
+      - name: contrat_id
+        tests:
+          - unique
+          - not_null
+      - name: client_id
+        tests:
+          - not_null
+      - name: montant_finance
+        tests:
+          - not_null
+
+  - name: fct_performance_remboursement
+    description: "Performance de remboursement par agence et produit"
+    columns:
+      - name: agence_id
+        tests:
+          - not_null
+      - name: taux_recouvrement_pct
+        tests:
+          - not_null

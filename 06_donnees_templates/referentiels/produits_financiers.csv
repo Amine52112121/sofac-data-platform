@@ -1,0 +1,9 @@
+produit_id,nom_produit,categorie,taux_min,taux_max,montant_min,montant_max,duree_min_mois,duree_max_mois,apport_min_pct,statut,description
+PROD001,Crédit Auto Neuf,Automobile,5.5,8.5,50000,500000,12,84,10,Actif,Financement véhicule neuf toutes marques
+PROD002,Crédit Auto Occasion,Automobile,7.0,11.0,20000,200000,12,60,20,Actif,Financement véhicule occasion moins de 5 ans
+PROD003,Crédit Personnel,Consommation,9.0,14.0,5000,150000,6,60,0,Actif,Crédit personnel multi-usage sans justificatif
+PROD004,Crédit Équipement,Équipement,8.0,12.0,10000,100000,12,48,10,Actif,Financement équipements ménagers et électroniques
+PROD005,Crédit Moto,Automobile,8.5,12.5,8000,80000,12,48,15,Actif,Financement motocycles et scooters
+PROD006,Regroupement de Crédits,Restructuration,10.0,15.0,20000,300000,24,96,0,Actif,Regroupement de crédits existants en une seule mensualité
+PROD007,Crédit Hajj et Omra,Consommation,7.5,10.0,15000,80000,12,36,0,Actif,Financement voyage religieux Hajj et Omra
+PROD008,Crédit Éducation,Consommation,6.5,9.5,10000,120000,12,60,0,Inactif,Financement frais de scolarité et études supérieures

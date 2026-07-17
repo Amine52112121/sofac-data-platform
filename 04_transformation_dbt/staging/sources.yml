@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: raw
+    project: my-project-sofac
+    dataset: raw
+    tables:
+      - name: clients_raw
+        description: "Données brutes clients depuis Postgres CRM"
+      - name: contrats_credit_raw
+        description: "Données brutes contrats de crédit depuis Postgres CRM"
+      - name: echeances_raw
+        description: "Données brutes échéances depuis système legacy CSV"
+      - name: paiements_raw
+        description: "Données brutes paiements depuis système legacy CSV"
+      - name: scoring_credit_raw
+        description: "Données brutes scoring depuis bureau de crédit JSON"
+      - name: incidents_paiement_raw
+        description: "Données brutes incidents depuis bureau de crédit JSON"
+      - name: agences_raw
+        description: "Référentiel agences Sofac CSV"
+      - name: produits_financiers_raw
+        description: "Référentiel produits financiers Sofac CSV"
