@@ -17,7 +17,7 @@ NIFI_PG_ID       = "60f65ed8-019f-1000-e68f-a71fe4a8ddba"
 DBT_PROJECT_DIR  = "/opt/dbt_project"
 DBT_PROFILES_DIR = "/opt/dbt_project"
 
-ALERT_EMAIL      = "machalamine61@gmail.com"
+ALERT_EMAIL      = "machal.amine@gmail.com"
 WAIT_SECONDS     = 300  
 
 default_args = {
